@@ -55,7 +55,9 @@ h4 {
     font-size: inherit
 }
 
+/*newSearch*/
 ul#subMenu {
+    position: relative;
     overflow: auto;
     float: left
 }
@@ -160,25 +162,22 @@ header {
     margin: 10px 0 0 10px;
     text-indent: 10px;
 }
-/*newSearch*/
-.sbox {
-    position: fixed;
-    z-index: 1001;
-    top:35px;
-    overflow: hidden;
-    color: #484848;
-    font-size: 14px;
-    letter-spacing: 0;
-    min-width: 338px;
-}
-.sbox .sboxPosi {
+.bottom {
     position: relative;
-    overflow: hidden;
 }
-.sbox .sboxPosi .sboxWrap {
-    width: 300px;
-    background-color: #fff;
-    float: right;
+.bottom ul.tag {
+    overflow: hidden;
+    position: absolute;
+    margin: 11px 0 0 23px;
+    font-size: 15px;
+    font-style: initial;
+    letter-spacing: 2px;
+}
+.bottom ul.tag li {
+    list-style: none;
+    display: block;
+    float: left;
+    background-color: #0B2644;
 }
 
 #headerWrap,
@@ -694,7 +693,7 @@ form#subBar {
 
 form#subBar .bottom,
 form#subBar ul.language {
-    overflow: auto;
+    overflow: hidden;
     float: left
 }
 
