@@ -162,6 +162,10 @@ header {
     margin: 10px 0 0 10px;
     text-indent: 10px;
 }
+#app-search {
+    overflow: auto;
+    margin: 0;
+}
 .bottom {
     position: relative;
 }

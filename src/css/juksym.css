@@ -1,0 +1,159 @@
+@charset "UTF-8";
+.newsearch_cover {
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+.newsearch_cover .title {
+  background-color: #e6e6e6;
+  line-height: 3em;
+}
+
+.newsearch_cover .newkey ul {
+  overflow: hidden;
+}
+
+.newsearch_cover .newkey ul li {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 33%;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.newsearch_cover .newkey ul li:nth-child(3n) {
+  border-right: none;
+}
+
+.newsearch_cover .newkey ul li a {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.newsearch_cover .newkey ul li a:hover {
+  background-color: #0a58a6;
+  color: #fff;
+}
+
+.newsearch_cover .advance ul li {
+  list-style: none;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.newsearch_cover .advance ul li b {
+  color: #484848;
+}
+
+.newsearch_cover .advance ul li:after {
+  content: "→";
+  display: block;
+  float: right;
+}
+
+.newsearch_cover .advance ul li:hover {
+  background-color: #0a58a6;
+  color: #fff;
+}
+
+.newsearch_cover .advance ul li:hover::after,
+.newsearch_cover .advance ul li:hover b {
+  color: #fff;
+}
+
+.newsearch_cover .advance-in .title {
+  color: #999;
+  cursor: pointer;
+}
+
+.newsearch_cover .advance-in .title:before {
+  content: "←";
+  display: block;
+  float: left;
+  margin-right: 10px;
+  color: #484848;
+}
+
+.newsearch_cover .advance-in .title:hover {
+  background-color: #666;
+  color: #666;
+}
+
+.newsearch_cover .advance-in .title:hover::before {
+  content: "← 返回";
+  color: #fff;
+}
+
+.newsearch_cover .advance-in ul {
+  overflow: hidden;
+}
+
+.newsearch_cover .advance-in ul li {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 33%;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.newsearch_cover .advance-in ul li:nth-child(3n) {
+  border-right: none;
+}
+
+.newsearch_cover .advance-in ul li a {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.newsearch_cover .advance-in ul li a:hover {
+  background-color: #0a58a6;
+  color: #fff;
+}
+
+.newsearch_cover .relateWord ul li {
+  list-style: none;
+  display: block;
+}
+
+.newsearch_cover .relateWord ul li a {
+  display: block;
+}
+
+.newsearch_cover .relateWord ul li a b {
+  margin-right: 2px;
+  color: #0a58a6;
+}
+
+.newsearch_cover .relateWord ul li a:hover {
+  background-color: #efefef;
+}
+
+#subBar {
+  position: relative;
+}
+
+#subBar ul.tag {
+  overflow: hidden;
+  position: absolute;
+  margin: 7px 0 0 42px;
+  font-size: 16px;
+  font-style: initial;
+  letter-spacing: 0px;
+  line-height: 1em;
+}
+
+#subBar ul.tag li {
+  list-style: none;
+  display: block;
+  float: left;
+  background-color: #efefef;
+  border: 1px solid #ccc;
+  padding: 3px 1px;
+}

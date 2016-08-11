@@ -1,0 +1,1244 @@
+#cboxWrapper,
+.cboxPhoto {
+    max-width: none
+}
+
+#cover div.popup-inner,
+.center,
+.copyright {
+    text-align: center
+}
+
+#sb-site,
+.sb-site-container,
+.sb-slidebar,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body,
+html {
+    width: 100%;
+    overflow-x: hidden
+}
+
+html {
+    height: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+body {
+    min-height: 100%;
+    height: auto;
+    position: relative;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: Roboto Condensed, Microsoft JhengHei, sans-serif;
+    color: #484848
+}
+
+html.sb-scroll-lock.sb-active:not(.sb-static) {
+    overflow: hidden
+}
+
+#sb-site,
+.sb-site-container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+    background-color: #fff
+}
+
+#cboxContent,
+#cboxLoadedContent {
+    background-color: transparent;
+    box-sizing: content-box
+}
+
+#sb-site:after,
+#sb-site:before,
+.sb-site-container:after,
+.sb-site-container:before {
+    content: ' ';
+    display: table;
+    clear: both
+}
+
+.sb-slidebar {
+    height: 100%;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+    display: none;
+    width: 30%
+}
+
+.sb-slidebar,
+.sb-slidebar * {
+    -webkit-transform: translateZ(0)
+}
+
+.sb-left {
+    left: 0
+}
+
+.sb-right {
+    right: 0
+}
+
+.sb-slidebar.sb-static,
+html.sb-static .sb-slidebar {
+    position: absolute
+}
+
+.sb-slidebar.sb-active {
+    display: block
+}
+
+.sb-style-overlay {
+    z-index: 9999
+}
+
+.sb-momentum-scrolling {
+    -webkit-overflow-scrolling: touch
+}
+
+.sb-width-thin {
+    width: 15%
+}
+
+.sb-width-wide {
+    width: 45%
+}
+
+@media (max-width:480px) {
+    .sb-slidebar {
+        width: 70%
+    }
+    .sb-width-thin {
+        width: 55%
+    }
+    .sb-width-wide {
+        width: 85%
+    }
+}
+
+@media (min-width:481px) {
+    .sb-slidebar {
+        width: 55%
+    }
+    .sb-width-thin {
+        width: 40%
+    }
+    .sb-width-wide {
+        width: 70%
+    }
+}
+
+@media (min-width:768px) {
+    .sb-slidebar {
+        width: 40%
+    }
+    .sb-width-thin {
+        width: 25%
+    }
+    .sb-width-wide {
+        width: 55%
+    }
+}
+
+@media (min-width:992px) {
+    .sb-slidebar {
+        width: 30%
+    }
+    .sb-width-thin {
+        width: 15%
+    }
+    .sb-width-wide {
+        width: 45%
+    }
+}
+
+@media (min-width:1200px) {
+    .sb-slidebar {
+        width: 20%
+    }
+    .sb-width-thin {
+        width: 5%
+    }
+    .sb-width-wide {
+        width: 35%
+    }
+}
+
+#sb-site,
+.sb-site-container,
+.sb-slide,
+.sb-slidebar {
+    transform: translate(0);
+    transition: transform .4s ease;
+    -webkit-transition-property: -webkit-transform, left, right;
+    -webkit-backface-visibility: hidden
+}
+
+.sb-hide {
+    display: none
+}
+
+#cboxClose,
+#cboxNext,
+#cboxPrevious,
+#cboxSlideshow {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    width: auto;
+    background: 0 0
+}
+
+#cboxNext,
+#cboxPrevious {
+    top: 50%;
+    margin-top: -32px;
+    width: 28px;
+    height: 65px;
+    text-indent: -9999px;
+    position: absolute;
+    cursor: pointer
+}
+
+#cboxOverlay,
+#cboxWrapper,
+#colorbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: hidden
+}
+
+#colorbox {
+    box-sizing: content-box;
+    outline: 0;
+    box-shadow: -5px 15px 12px -12px rgba(0, 0, 0, .75)
+}
+
+#cboxOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8)
+}
+
+#cboxBottomLeft,
+#cboxMiddleLeft {
+    clear: left
+}
+
+#cboxContent {
+    position: relative;
+    margin-top: 0;
+    margin-right: 0
+}
+
+#cboxLoadedContent {
+    overflow: auto
+}
+
+#cboxTitle {
+    margin: 0;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #ccc
+}
+
+#cboxLoadingGraphic,
+#cboxLoadingOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+#cboxLoadingGraphic {
+    background: url(https://www.juksy.com/img/mobile/loading.svg) center center no-repeat
+}
+
+#cboxPrevious {
+    left: 5px;
+    background: url(https://www.juksy.com/img/mobile/controls.png) top left no-repeat
+}
+
+#cboxClose:active,
+#cboxNext:active,
+#cboxPrevious:active,
+#cboxSlideshow:active {
+    outline: 0
+}
+
+#cboxPrevious:hover {
+    background-position: bottom left
+}
+
+#cboxNext {
+    right: 5px;
+    background: url(https://www.juksy.com/img/mobile/controls.png) top right no-repeat
+}
+
+#cboxNext:hover {
+    background-position: bottom right
+}
+
+#cboxClose {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    background: url(https://www.juksy.com/img/mobile/close_btn.png) center center no-repeat;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-size: 60% auto;
+    transition-duration: .3s
+}
+
+header ul.headWrap li .logo,
+header ul.headWrap li .openMenu,
+header ul.headWrap li .searchRight {
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+#cboxClose:hover {
+    background-size: 80% auto
+}
+
+#cboxSlideshow {
+    cursor: pointer;
+    position: absolute;
+    top: -20px;
+    right: 90px;
+    color: #fff
+}
+
+.cboxPhoto {
+    float: left;
+    margin: auto;
+    border: 0;
+    display: block
+}
+
+.cboxIframe,
+blockquote,
+figure,
+h1,
+h2,
+h3,
+h4,
+ol,
+p,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+.cboxIframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+    background-color: transparent
+}
+
+#cboxError {
+    padding: 50px;
+    border: 1px solid #ccc
+}
+
+#cboxCurrent {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    color: #ccc
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: inherit;
+    font-weight: 400
+}
+
+.innerNavsub,
+nav ul li h3,
+ul.articleWrap ul li a.tag h1,
+ul.articleWrap ul li a.title,
+ul.articleWrap ul li a.title h2,
+ul.articleWrap ul li.small a.title h2 {
+    font-weight: 700
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    transition: .5s
+}
+
+img {
+    border: 0
+}
+
+.clearBoth {
+    clear: both
+}
+
+.hide {
+    display: none
+}
+
+.contentWidth,
+.txtWidth {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto
+}
+
+.minHeight65 {
+    min-height: 65vh
+}
+
+.minHeight100 {
+    min-height: 100vh
+}
+
+.topFixed {
+    width: 100%;
+    line-height: 60px;
+    position: fixed;
+    z-index: 2
+}
+
+header ul.headWrap {
+    overflow: auto;
+    background-color: #0a58a6
+}
+
+header ul.headWrap li {
+    list-style: none;
+    display: block;
+    width: 33%;
+    float: left
+}
+
+header ul.headWrap li .openMenu {
+    width: 30px;
+    height: 30px;
+    background-image: url(https://www.juksy.com/img/mobile/menu_btn.gif);
+    background-size: 100% auto;
+    margin: 15px 0 0 15px;
+    cursor: pointer
+}
+
+header ul.headWrap li .logo {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-image: url(https://www.juksy.com/img/mobile/logo.png);
+    background-size: 100px auto
+}
+
+header ul.headWrap li .searchRight {
+    width: 40px;
+    height: 40px;
+    background-image: url(https://www.juksy.com/img/mobile/search_right.png);
+    background-size: 25px auto;
+    float: right;
+    margin: 10px 10px 0 0;
+    cursor: pointer
+}
+
+#newsearch,
+.newsearch_close {
+    background-color: #e6e6e6;
+    top: 0;
+    background-image: url(https://www.juksy.com/img/mobile/search_right_close.png);
+    background-size: 60px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    right: 0
+}
+
+.dfp_center {
+    margin: 10px auto;
+    display: table
+}
+
+#newsearch,
+.newsearch_close,
+.newsearch_cover {
+    z-index: 2;
+    display: none;
+    position: fixed
+}
+
+.dfp_center_bottom,
+.dfp_center_popup {
+    margin: 0 auto
+}
+
+.newsearch_close {
+    width: 60px;
+    height: 60px
+}
+
+#newsearch {
+    height: auto
+}
+
+.newsearch_cover {
+    left: 0;
+    top: 60px;
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 100vh;
+    color: #4d4d4d
+}
+
+.newsearch_cover .searchbar {
+    background-color: #fff
+}
+
+.newsearch_cover .searchbar form {
+    overflow: auto;
+    margin: 0;
+    padding: 10px 0
+}
+
+.newsearch_cover .searchbar form input[type=submit] {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: transparent;
+    display: block;
+    float: left;
+    background-image: url(https://www.juksy.com/img/mobile/search_right_black.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px auto;
+    margin: 0;
+    border: 0
+}
+
+.newsearch_cover .searchbar form input[type=search] {
+    width: 85%;
+    font-size: 16px;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    outline: 0;
+    margin: 0;
+    padding: 10px 0;
+    display: block;
+    float: left;
+    box-shadow: none
+}
+
+.newsearch_cover .keytitle {
+    background-color: #e6e6e6;
+    line-height: 3em
+}
+
+.newsearch_cover .black {
+    width: 100%;
+    height: 100%
+}
+
+.newsearch_cover ul.keywords {
+    background-color: #fff;
+    overflow: auto;
+    padding: 0;
+    border-top: 1px solid #ccc
+}
+
+.newsearch_cover ul.keywords li {
+    list-style: none;
+    float: left;
+    width: 33%;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc
+}
+
+.newsearch_cover ul.keywords lili:nth-child(3n+3) {
+    border-right: none
+}
+
+.newsearch_cover ul.keywords li a {
+    display: block;
+    text-align: center;
+    font-weight: 700
+}
+
+.noimg {
+    background-image: url(https://www.juksy.com/img/mobile/noimg152.jpg);
+    background-size: 76px 76px;
+    background-repeat: repeat
+}
+
+#cover {
+    display: none;
+    table-layout: fixed;
+    height: 100%!important;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 0;
+    transition: opacity .2s linear 0s;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000
+}
+
+#cover div.popup-inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%
+}
+
+#cover div.popup-inner div.popup-content {
+    display: inline-block;
+    outline: 0;
+    text-align: left;
+    position: relative
+}
+
+#cover div.popup-inner div.popup-content button {
+    background: url(https://www.juksy.com/img/mobile/close_btn_dfp.png);
+    background-size: 35px 35px;
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    right: -15px;
+    top: -15px
+}
+
+#cover.active {
+    display: table;
+    opacity: 1
+}
+
+#sb-site.top6 {
+    padding-top: 60px;
+    background-color: #e6e6e6
+}
+
+main.channel {
+    padding-top: 40px
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #0a58a6
+}
+
+footer.article {
+    height: 100px
+}
+
+footer ul.footWrap {
+    overflow: hidden;
+    margin: 0 auto
+}
+
+footer ul.footWrap li {
+    list-style: none;
+    display: block;
+    float: left;
+    margin: 10px 10px 0 0
+}
+
+footer ul.footWrap li img.logo {
+    width: 16px;
+    height: 16px
+}
+
+footer ul.footWrap li:first-child {
+    margin: 17px 10px 0 0
+}
+
+footer ul.footWrap li.txt {
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: normal
+}
+
+footer ul.footWrap li.fb {
+    width: 87px;
+    height: 20px;
+    overflow: hidden;
+    margin: 15px 0 0;
+    float: right
+}
+
+.sb-slidebar {
+    background-color: #e6e6e6;
+    border-right: 1px solid #484848
+}
+
+form.search {
+    overflow: auto;
+    background-color: #323233;
+    margin: 0
+}
+
+form.search .btn,
+form.search .txt {
+    background-color: transparent;
+    margin: 0;
+    float: left
+}
+
+form.search .btn {
+    width: 15%;
+    height: 41px;
+    cursor: pointer;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    display: block;
+    background-image: url(https://www.juksy.com/img/mobile/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px auto
+}
+
+form.search .txt {
+    width: 85%;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    -webkit-appearance: none;
+    outline: 0;
+    padding: 10px 0;
+    display: block
+}
+
+nav ul li .hasSub,
+nav ul li .menu-icon:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(https://www.juksy.com/img/mobile/icon_sprite.png);
+    background-size: 60px auto;
+    background-repeat: no-repeat
+}
+
+form.search .txt::-moz-placeholder {
+    color: #fff;
+    opacity: .5
+}
+
+form.search .txt:-moz-placeholder {
+    color: #fff;
+    opacity: .5
+}
+
+form.search .txt::-webkit-input-placeholder {
+    color: #fff;
+    opacity: .5
+}
+
+form.search .txt:-ms-input-placeholder {
+    color: #fff;
+    opacity: .5
+}
+
+nav ul li {
+    list-style: none;
+    line-height: 20px;
+    background-color: #e6e6e6;
+    border-bottom: 2px solid #ccc;
+    display: block;
+    color: #4d4d4d
+}
+
+nav ul li a {
+    display: block
+}
+
+nav ul li h3 {
+    padding: .9em 1.5em
+}
+
+nav ul li .user:before {
+    background-position: left 0
+}
+
+nav ul li .hottest:before {
+    background-position: left -20px
+}
+
+nav ul li .entertain:before {
+    background-position: left -40px
+}
+
+nav ul li .topic:before {
+    background-position: left -60px
+}
+
+nav ul li .tech:before {
+    background-position: left -80px
+}
+
+nav ul li .novel:before {
+    background-position: left -100px
+}
+
+nav ul li .video:before {
+    background-position: left -120px
+}
+
+nav ul li .recruit:before {
+    background-position: left -140px
+}
+
+nav ul li .aboutmenu:before {
+    background-position: left -160px
+}
+
+nav ul li .category:before {
+    background-position: center 0
+}
+
+nav ul li .fashion:before {
+    background-position: center -20px
+}
+
+nav ul li .movie:before {
+    background-position: center -40px
+}
+
+nav ul li .comic:before {
+    background-position: center -60px
+}
+
+nav ul li .sport:before {
+    background-position: center -80px
+}
+
+nav ul li .car:before {
+    background-position: center -100px
+}
+
+nav ul li .activity:before {
+    background-position: center -120px
+}
+
+nav ul li .newest:before {
+    background-position: right 0
+}
+
+nav ul li .wear:before {
+    background-position: right -20px
+}
+
+nav ul li .design:before {
+    background-position: right -40px
+}
+
+nav ul li .game:before {
+    background-position: right -60px
+}
+
+nav ul li .girl:before {
+    background-position: right -80px
+}
+
+nav ul li .animal:before {
+    background-position: right -100px
+}
+
+nav ul li .contact:before {
+    background-position: right -120px
+}
+
+nav ul li .hasSub {
+    float: right;
+    background-position: center -140px
+}
+
+nav ul li .menu-icon:before {
+    margin-right: 10px;
+    float: left
+}
+
+nav ul ul,
+nav ul ul.subMenu ul {
+    display: none
+}
+
+nav ul ul li {
+    background-color: #fff;
+    border: 0
+}
+
+nav ul ul li a {
+    padding: 0 1.5em
+}
+
+nav ul ul li h4 {
+    padding: .9em 0;
+    border-top: 1px solid #ccc
+}
+
+nav ul ul li:first-child h4 {
+    border: 0
+}
+
+nav ul ul.subMenu {
+    overflow: auto;
+    display: none
+}
+
+nav ul ul.subMenu .subMenu-left {
+    float: left;
+    width: 49.5%;
+    border-right: 1px solid #ccc
+}
+
+nav ul ul.subMenu .individual {
+    background-color: #0a58a6;
+    color: #fff
+}
+
+nav ul ul.subMenu .individual h4 {
+    padding: .9em 1.5em
+}
+
+nav ul ul.subMenu .subMenu-right {
+    float: right;
+    width: 50%
+}
+
+nav ul ul.subMenu li {
+    border: 0
+}
+
+nav ul ul.subMenu li.highlight {
+    color: #fff;
+    background-color: #0071bc
+}
+
+nav ul ul.subMenu li a {
+    padding: 0
+}
+
+nav ul ul.subMenu li h4 {
+    padding: .9em 0 .9em 1.5em
+}
+
+nav ul ul.subMenu ul li {
+    background-color: #f2f2f2;
+    width: auto;
+    border: 0
+}
+
+nav ul ul.subMenu ul li a {
+    padding: 0 1.5em
+}
+
+nav ul ul.subMenu ul li span {
+    display: block;
+    padding: .9em 0;
+    border-bottom: 1px solid #999
+}
+
+nav ul ul.subMenu ul li:last-child span {
+    border: 0
+}
+
+.innerNav {
+    display: none;
+    background-color: #fff;
+    color: #484848;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, .1);
+    height: 40px;
+    overflow: hidden
+}
+
+.innerNav .arrowL,
+.innerNav .arrowR {
+    width: 40px;
+    height: 40px;
+    background-image: url(https://www.juksy.com/img/mobile/channel/navbar_arrow.png);
+    background-size: 80px 80px
+}
+
+.innerNav .arrowL {
+    float: left;
+    background-position: left top
+}
+
+.innerNav .arrowL.canMove {
+    background-position: left bottom
+}
+
+.innerNav .arrowR {
+    float: right;
+    background-position: right top
+}
+
+.innerNav .arrowR.canMove {
+    background-position: right bottom
+}
+
+.innerNavsub {
+    display: none;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, .8)
+}
+
+.slider1_container .loading .bg,
+ul.articleWrap ul li {
+    background-color: #fff
+}
+
+.innerNavsub ul {
+    width: 320px;
+    overflow: auto;
+    display: none;
+    margin: 0 auto
+}
+
+.innerNavsub ul li {
+    list-style: none;
+    display: block;
+    float: left
+}
+
+.innerNavsub ul li a {
+    line-height: 40px;
+    padding: 0 9px;
+    display: block
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 10px 0;
+    letter-spacing: 0;
+    color: gray
+}
+
+@media screen and (min-width:768px) {
+    body {
+        font-size: 20px
+    }
+}
+
+ul.articleWrap ul li .date,
+ul.articleWrap ul li .detail {
+    font-size: 14px;
+    margin: 10px auto 0
+}
+
+.bannerWrap {
+    width: 320px;
+    margin: 0;
+    overflow: hidden
+}
+
+.slider1_container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 336px;
+    height: 306px;
+    overflow: hidden;
+    margin: 0 0 0 -8px
+}
+
+.slider1_container .slides {
+    cursor: move;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 336px;
+    height: 280px;
+    overflow: hidden
+}
+
+.slider1_container .loading .bg,
+.slider1_container .loading .bgImg {
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    left: 0;
+    position: absolute
+}
+
+.slider1_container .loading {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.slider1_container .loading .bgImg {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(https://www.juksy.com/img/mobile/loading.svg)
+}
+
+ul.articleWrap {
+    margin: 10px auto
+}
+
+ul.articleWrap li {
+    list-style: none;
+    display: block
+}
+
+ul.articleWrap ul {
+    overflow: auto
+}
+
+ul.articleWrap ul li {
+    width: 100%;
+    list-style: none;
+    display: block;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    float: left
+}
+
+ul.articleWrap ul li.small {
+    width: 49%;
+    margin: 0 1% 10px 0
+}
+
+ul.articleWrap ul li.small:last-child {
+    margin: 0 0 10px 1%
+}
+
+ul.articleWrap ul li.small .date {
+    text-align: left
+}
+
+ul.articleWrap ul li.small a.title {
+    font-size: 14px;
+    height: 6em;
+    overflow: hidden;
+    letter-spacing: 0;
+    text-align: justify
+}
+
+ul.articleWrap ul li .tagWrap {
+    margin: 0 auto;
+    padding: 10px
+}
+
+ul.articleWrap ul li .detail {
+    display: block;
+    color: #666;
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
+    text-align: justify
+}
+
+ul.articleWrap ul li a.tag {
+    padding-right: 10px;
+    border-right: 1px solid #d1d3d4;
+    display: inline-block
+}
+
+ul.articleWrap ul li a.img {
+    display: block
+}
+
+ul.articleWrap ul li a.img img {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+ul.articleWrap ul li a.title {
+    display: block;
+    margin: 10px auto 0;
+    line-height: 1.5em;
+    text-align: justify
+}
+
+.jssorb05 {
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+
+.jssorb05 .av,
+.jssorb05 div,
+.jssorb05 div:hover {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 8px
+}
+
+.jssorb05 .av:hover,
+.jssorb05 div:hover {
+    background-color: rgba(10, 88, 166, .5)
+}
+
+.jssorb05 .av {
+    background-color: #0a58a6
+}
+
+@media screen and (min-width:336px) {
+    .bannerWrap {
+        width: 336px;
+        margin: 20px auto 0
+    }
+    .slider1_container {
+        margin: auto
+    }
+}
+
+@media screen and (min-width:768px) {
+    ul.articleWrap ul li {
+        margin: 0 0 20px
+    }
+    ul.articleWrap ul li .date,
+    ul.articleWrap ul li .detail,
+    ul.articleWrap ul li.small a.title {
+        font-size: 18px
+    }
+}

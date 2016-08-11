@@ -1,0 +1,138 @@
+.newsearch_cover {
+    background-color: #fff;
+    overflow-y: scroll;
+    .title {
+        background-color: #e6e6e6;
+        line-height: 3em;
+    }
+    .newkey ul {
+        overflow: hidden;
+        li {
+            list-style: none;
+            display: block;
+            float: left;
+            width: 33%;
+            border-bottom: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            &:nth-child(3n) {
+                border-right: none;
+            }
+            a {
+                display: block;
+                text-align: center;
+                font-weight: bold;
+                &:hover {
+                    background-color: #0a58a6;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .advance ul li {
+        list-style: none;
+        display: block;
+        overflow: hidden;
+        cursor: pointer;
+        color: rgba(0, 0, 0, 0.5);
+        b {
+            color: #484848;
+        }
+        &:after {
+            content: "→";
+            display: block;
+            float: right;
+        }
+        &:hover {
+            background-color: #0a58a6;
+            color: #fff;
+            &::after,
+            b {
+                color: #fff;
+            }
+        }
+    }
+    .advance-in {
+        .title {
+            color: #999;
+            cursor: pointer;
+            &:before {
+                content: "←";
+                display: block;
+                float: left;
+                margin-right: 10px;
+                color: #484848;
+            }
+            &:hover {
+                background-color: #666;
+                color: #666;
+                &::before {
+                    content: "← 返回";
+                    color: #fff;
+                }
+            }
+        }
+        ul {
+            overflow: hidden;
+            li {
+                list-style: none;
+                display: block;
+                float: left;
+                width: 33%;
+                border-bottom: 1px solid #ccc;
+                border-right: 1px solid #ccc;
+                &:nth-child(3n) {
+                    border-right: none;
+                }
+                a {
+                    display: block;
+                    text-align: center;
+                    font-weight: bold;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: #0a58a6;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .relateWord {
+        ul {
+            li {
+                list-style: none;
+                display: block;
+                a {
+                    display: block;
+                    b {
+                        margin-right: 2px;
+                        color: #0a58a6;
+                    }
+                    &:hover {
+                        background-color: #efefef;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#subBar {
+	position: relative;
+    ul.tag {
+        overflow: hidden;
+        position: absolute;
+        margin: 7px 0 0 42px;
+        font-size: 16px;
+        font-style: initial;
+        letter-spacing: 0px;
+        line-height: 1em;
+        li {
+            list-style: none;
+            display: block;
+            float: left;
+            background-color: #efefef;
+            border: 1px solid #ccc;
+            padding: 3px 1px;
+        }
+    }
+}
