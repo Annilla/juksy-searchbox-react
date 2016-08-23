@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/*newSearch*/
+.sbox {
+  position: absolute;
+  z-index: 1001;
+  margin-top: 35px;
+  overflow: hidden;
+  color: #484848;
+  font-size: 14px;
+  letter-spacing: 0;
+  min-width: 312px;
+}
+
+.sbox .sboxPosi {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.sbox .sboxPosi .sboxWrap {
+  width: 296px;
+  margin-right: 4px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.8);
+  float: right;
+}
+
+.sbox .sboxPosi .sboxWrap .title {
+  padding: 5px 10px;
+  background-color: #e6e6e6;
+}
+
+.sbox .sboxPosi .sboxWrap .advance ul li {
+  list-style: none;
+  display: block;
+  padding: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.sbox .sboxPosi .sboxWrap .advance ul li b {
+  color: #484848;
+}
+
+.sbox .sboxPosi .sboxWrap .advance ul li:after {
+  content: "→";
+  display: block;
+  float: right;
+}
+
+.sbox .sboxPosi .sboxWrap .advance ul li:hover {
+  background-color: #0a58a6;
+  color: #fff;
+}
+
+.sbox .sboxPosi .sboxWrap .advance ul li:hover::after,
+.sbox .sboxPosi .sboxWrap .advance ul li:hover b {
+  color: #fff;
+}
+
+.sbox .sboxPosi .sboxWrap .newkey ul {
+  overflow: hidden;
+}
+
+.sbox .sboxPosi .sboxWrap .newkey ul li {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 33%;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.sbox .sboxPosi .sboxWrap .newkey ul li:nth-child(3n) {
+  border-right: none;
+}
+
+.sbox .sboxPosi .sboxWrap .newkey ul li a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.sbox .sboxPosi .sboxWrap .newkey ul li a:hover {
+  background-color: #0a58a6;
+  color: #fff;
+}
+
+.sbox .sboxPosi .sboxWrap .advance-in .title {
+  color: #999;
+  cursor: pointer;
+}
+
+.sbox .sboxPosi .sboxWrap .advance-in .title:before {
+  content: "←";
+  display: block;
+  float: left;
+  margin-right: 10px;
+  color: #484848;
+}
+
+.sbox .sboxPosi .sboxWrap .advance-in .title:hover {
+  background-color: #666;
+  color: #666;
+}
+
+.sbox .sboxPosi .sboxWrap .advance-in .title:hover::before {
+  content: "← 返回";
+  color: #fff;
+}
+
+.sbox .sboxPosi .sboxWrap .advance-in ul {
+  overflow: hidden;
+}
+
+.sbox .sboxPosi .sboxWrap .advance-in ul li {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 33%;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.sbox .sboxPosi .sboxWrap .advance-in ul li:nth-child(3n) {
+  border-right: none;
+}
+
+.sbox .sboxPosi .sboxWrap .advance-in ul li a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sbox .sboxPosi .sboxWrap .advance-in ul li a:hover {
+  background-color: #0a58a6;
+  color: #fff;
+}
+
+.sbox .sboxPosi .sboxWrap .relateWord ul li {
+  list-style: none;
+  display: block;
+}
+
+.sbox .sboxPosi .sboxWrap .relateWord ul li a {
+  display: block;
+  padding: 10px;
+}
+
+.sbox .sboxPosi .sboxWrap .relateWord ul li a b {
+  margin-right: 2px;
+  color: #0a58a6;
+}
+
+.sbox .sboxPosi .sboxWrap .relateWord ul li a:hover {
+  background-color: #efefef;
+}

@@ -1,12 +1,14 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import { Provider } from "react-redux"
+import { Provider } from "mobx-react"
 
-import Search from "./components/Search"
-import store from "./juksystore"
+import SearchStore from "./Stores/SearchStore"
+import Search from "./Elements/Search"
 
-const appSearch = document.getElementById('app-search')
+const appSearch = document.getElementById("app-search")
 
-ReactDOM.render(<Provider store={store}>
-  <Search />
-</Provider>, appSearch);
+ReactDOM.render(
+    <Provider store={SearchStore}>
+        <Search />
+    </Provider>
+, appSearch)

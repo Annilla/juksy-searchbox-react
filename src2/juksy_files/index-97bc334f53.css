@@ -1,0 +1,1686 @@
+body,
+form#subBar .keywords {
+    font-family: Roboto Condensed, Microsoft JhengHei, sans-serif
+}
+
+blockquote,
+figure,
+h1,
+h2,
+h3,
+h4,
+ol,
+p,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+#menuB,
+body {
+    min-width: 1050px
+}
+
+#keywords h3,
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 400
+}
+
+#mainMenu>ul>li a,
+a,
+form#subBar ul.language li a:hover {
+    text-decoration: none
+}
+
+.footerAd .close,
+.footerNav .footerNavWrap .footerNavL ul.share li .txt,
+a {
+    cursor: pointer
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #484848
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: inherit
+}
+
+/*newSearch*/
+ul#subMenu {
+    position: relative;
+    overflow: auto;
+    float: left
+}
+
+ul#subMenu li {
+    display: block;
+    float: left;
+    padding: 0 7px 0 10px;
+    background-image: url(https://www.juksy.com/img/base.png);
+    background-repeat: no-repeat;
+    background-position: 0 -1427px;
+    line-height: 40px
+}
+
+ul#subMenu li:first-child {
+    padding-left: 0;
+    background-image: none
+}
+
+ul#subMenu li a:hover {
+    opacity: .5
+}
+
+a {
+    color: inherit;
+    transition: .5s
+}
+
+img {
+    border: 0
+}
+
+.clearBoth {
+    clear: both
+}
+
+#cboxBottomLeft,
+#cboxMiddleLeft,
+form#subBar .keywords .keywordsBg .keywordsWrap ul li:nth-child(4n) {
+    clear: left
+}
+
+.hide {
+    display: none
+}
+
+.imgLoading {
+    background: url(https://www.juksy.com/img/loading.svg) center center no-repeat rgba(0, 0, 0, .1)
+}
+
+.articleSpace,
+.asideSpace {
+    margin-top: 20px
+}
+
+.articleTitle,
+.asideTitle {
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: silver
+}
+
+.articleTitle {
+    width: 730px
+}
+
+header {
+    background-color: #0a58a6;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px
+}
+
+#headerTop {
+    background-color: #134175
+}
+
+#headerTopWrap {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    overflow: auto;
+    height: 40px
+}
+
+/*newSearch*/
+#subBar .input {
+    width: 300px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
+    background-color: transparent;
+    background-image: url(https://www.juksy.com/img/base.png);
+    background-repeat: no-repeat;
+    background-position: 150px -1407px;
+    float: left;
+    outline: 0;
+    margin: 10px 0 0 10px;
+    text-indent: 10px;
+}
+#app-search {
+    overflow: auto;
+    margin: 0;
+}
+.bottom {
+    position: relative;
+}
+.bottom ul.tag {
+    overflow: hidden;
+    position: absolute;
+    margin: 11px 0 0 23px;
+    font-size: 15px;
+    font-style: initial;
+    letter-spacing: 2px;
+}
+.bottom ul.tag li {
+    list-style: none;
+    display: block;
+    float: left;
+    background-color: #0B2644;
+}
+
+#headerWrap,
+#juksyLogo a {
+    height: 81px;
+    margin: 0 auto
+}
+
+#subBar .input:-moz-placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+#subBar .input:-ms-input-placeholder {
+    color: #fff
+}
+
+#subBar .input::-webkit-input-placeholder {
+    color: #fff
+}
+
+#subBar .input::-moz-placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+#headerWrap {
+    width: 100%;
+    max-width: 1050px;
+    padding: 20px 0;
+    overflow: hidden
+}
+
+#juksyLogo {
+    width: 450px;
+    float: left
+}
+
+#juksyLogo a {
+    width: 286px;
+    display: block
+}
+
+#juksyLogo a img {
+    width: 100%;
+    height: 100%
+}
+
+#logoLeft,
+#logoRight {
+    float: left;
+    width: 300px;
+    padding-top: 30px
+}
+
+nav {
+    font-size: 18px;
+    color: #595757;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .5)
+}
+
+nav.fixed {
+    font-size: 16px
+}
+
+nav.fixed #mainMenu>ul>li>a {
+    font-size: 15px;
+    margin: 0 12px
+}
+
+nav.fixed #mainMenu>ul>li:first-child>a {
+    margin: 0 12px 0 34px
+}
+
+nav.fixed #mainMenu>ul>li:first-child ul li:first-child a {
+    margin-left: 34px
+}
+
+nav.fixed #mainMenu>ul>li:hover {
+    color: rgba(255, 255, 255, .65)
+}
+
+nav.fixed #mainMenu>ul>li:last-child>a {
+    margin: 0 0 0 12px
+}
+
+nav.fixed #mainMenu ul ul li:first-child a {
+    margin-left: 12px
+}
+
+#menuB {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, .8)
+}
+
+#mainMenu {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1050px
+}
+
+#mainMenu>ul {
+    float: left
+}
+
+#mainMenu>ul>li:last-child.subFix {
+    background-image: none
+}
+
+#mainMenu>ul>li:last-child>a {
+    margin: 0 0 0 18px;
+    text-align: right
+}
+
+#mainMenu>ul>li a {
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin: 0 17px;
+    display: block;
+    line-height: 53px;
+    text-align: center;
+    transition: none
+}
+
+#mainMenu>ul>li a.channel_now {
+    background: url(https://www.juksy.com/img/menub_line.png) left bottom repeat-x
+}
+
+#footMenu ul li a,
+#mainMenu ul ul li {
+    background-image: url(https://www.juksy.com/img/base.png)
+}
+
+#mainMenu>ul>li:first-child>a {
+    margin: 0 19px 0 0;
+    text-align: left
+}
+
+#mainMenu>ul>li:first-child ul li:first-child a {
+    margin-left: 0
+}
+
+#footerWrap,
+#mainWrap {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto
+}
+
+#mainMenu>ul>li:hover {
+    color: #0a58a6
+}
+
+#mainMenu ul ul li a:hover,
+form#subBar ul.language li:hover {
+    color: #01e6a8
+}
+
+#mainMenu ul li {
+    float: left;
+    overflow: auto;
+    display: block
+}
+
+#mainMenu ul ul {
+    z-index: 1001;
+    display: none;
+    margin-top: 0;
+    position: absolute;
+    width: auto
+}
+
+#mainMenu ul ul li {
+    float: left;
+    background-repeat: no-repeat;
+    background-position: 0 -1100px
+}
+
+#footMenu ul li:first-child a,
+#mainMenu ul ul li:first-child {
+    background-image: none
+}
+
+#mainMenu ul ul li:first-child a {
+    margin-left: 17px
+}
+
+#mainMenu ul ul li a {
+    margin: 0 10px;
+    padding: 0;
+    line-height: 53px;
+    text-align: left;
+    color: #fff
+}
+
+#mainMenu ul ul li:last-child a {
+    margin-right: 0
+}
+
+#navHome {
+    width: 0;
+    height: 36px;
+    background: url(https://www.juksy.com/img/nav_home.png) no-repeat;
+    background-size: 100% auto;
+    float: left;
+    margin-top: 8px;
+    opacity: 1
+}
+
+#footMenu ul li a:hover,
+#keywords ul li a:hover,
+.footerNav .footerNavWrap .footerNavR ul.favorite li a:hover {
+    opacity: .5
+}
+
+footer {
+    background-color: #efefef;
+    color: #666;
+    font-size: 16px;
+    letter-spacing: 2px
+}
+
+#footerWrap {
+    padding: 30px 0 80px
+}
+
+#keywords {
+    font-size: 27px;
+    text-align: center
+}
+
+#keywords ul {
+    overflow: auto;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin: 20px auto 50px
+}
+
+#footMenu ul li,
+#keywords ul li {
+    list-style: none;
+    float: left
+}
+
+#keywords ul li a {
+    width: 105px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    display: block
+}
+
+#footMenu {
+    overflow: auto;
+    margin: 30px 0
+}
+
+#footMenu ul {
+    overflow: hidden;
+    text-align: right;
+    margin-bottom: 20px
+}
+
+#footMenu ul li a {
+    display: block;
+    padding: 0 10px;
+    background-repeat: no-repeat;
+    background-position: 0 -924px
+}
+
+#footMenu ul li:last-child a {
+    color: #fff;
+    display: block;
+    background-color: #0a58a6
+}
+
+#footLogo {
+    float: left
+}
+
+#footMenuRight {
+    float: right;
+    text-align: right;
+    font-size: 14px
+}
+
+.footerNav {
+    width: 100%;
+    color: #fff;
+    background-color: #0a58a6;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 700;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+    z-index: 2
+}
+
+.footerNav .footerNavWrap {
+    width: 1050px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.footerNav .footerNavWrap .footerNavL {
+    overflow: hidden;
+    float: left;
+    font-size: 20px
+}
+
+.footerNav .footerNavWrap .footerNavL ul.follow {
+    overflow: hidden;
+    float: left
+}
+
+.footerNav .footerNavWrap .footerNavL ul.follow li {
+    list-style: none;
+    display: block;
+    float: left
+}
+
+.footerNav .footerNavWrap .footerNavL ul.follow li a.fb {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(https://www.juksy.com/img/juksy_fb.png);
+    background-position: center center;
+    background-size: 18px auto;
+    background-repeat: no-repeat
+}
+
+.footerNav .footerNavWrap .footerNavL ul.share {
+    overflow: hidden;
+    float: left
+}
+
+.footerNav .footerNavWrap .footerNavL ul.share li {
+    list-style: none;
+    display: block;
+    float: left
+}
+
+.footerNav .footerNavWrap .footerNavL ul.share li .fb {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(https://www.juksy.com/img/base.png);
+    background-repeat: no-repeat;
+    background-position: 0 -993px;
+    cursor: pointer
+}
+
+.footerNav .footerNavWrap .footerNavR {
+    float: right;
+    overflow: hidden;
+    letter-spacing: 3px
+}
+
+.footerNav .footerNavWrap .footerNavR .title {
+    float: left;
+    background-color: #fff;
+    color: #0a58a6;
+    border-radius: 3px;
+    line-height: 30px;
+    padding: 0 15px;
+    margin: 10px 0
+}
+
+#goTop,
+#goTop:hover {
+    border: 1px solid #fff
+}
+
+.footerNav .footerNavWrap .footerNavR .titleArrow {
+    width: 9px;
+    height: 50px;
+    display: block;
+    float: left;
+    background-image: url(https://www.juksy.com/img/base.png);
+    background-repeat: no-repeat;
+    background-position: 0 -943px
+}
+
+.footerNav .footerNavWrap .footerNavR ul.favorite {
+    float: right;
+    margin-left: 10px;
+    width: 440px;
+    height: 50px;
+    overflow: hidden
+}
+
+.footerNav .footerNavWrap .footerNavR ul.favorite li {
+    list-style: none;
+    display: block
+}
+
+.footerAd {
+    width: 100%;
+    background-color: #134175;
+    color: #fff;
+    position: fixed;
+    bottom: -338px;
+    left: 0;
+    z-index: 2;
+    display: block
+}
+
+.footerAd .close {
+    height: 38px;
+    background-color: rgba(0, 0, 0, .3);
+    background-image: url(https://www.juksy.com/img/article/footad_close.png);
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+.footerAd .close:hover {
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.footerAd .footerAdWrap {
+    width: 970px;
+    height: 300px;
+    margin: 0 auto
+}
+
+#goTop {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-color: #0a58a6;
+    background-image: url(https://www.juksy.com/img/base.png);
+    background-repeat: no-repeat;
+    background-position: 0 -1043px;
+    position: fixed;
+    right: 0;
+    bottom: 63px;
+    z-index: 2
+}
+
+#goTop:hover {
+    background-color: #01e6a8
+}
+
+#cover {
+    display: none;
+    table-layout: fixed;
+    height: 100%!important;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 0;
+    transition: opacity .2s linear 0s;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000
+}
+
+#cover div.popup-inner {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%
+}
+
+#cover div.popup-inner div.popup-content {
+    display: inline-block;
+    outline: 0;
+    text-align: left;
+    position: relative
+}
+
+#cover div.popup-inner div.popup-content button {
+    background: url(https://www.juksy.com/img/mobile/close_btn_dfp.png);
+    background-size: 35px 35px;
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    right: -15px;
+    top: -15px
+}
+
+#cover.active {
+    display: table;
+    opacity: 1
+}
+
+@media screen and (min-width:1050px) {
+    html {
+        overflow-x: hidden
+    }
+}
+
+form#subBar {
+    height: 40px;
+    overflow: hidden;
+    float: right;
+    min-width: 260px
+}
+
+form#subBar .bottom,
+form#subBar ul.language {
+    overflow: hidden;
+    float: left
+}
+
+/*newSearch*/
+form#subBar ul.member {
+    overflow: auto;
+    float: left;
+}
+
+form#subBar ul.member.floatRight {
+    float: right
+}
+
+form#subBar ul.member li {
+    display: block;
+    float: right;
+    padding: 0 7px 0 10px;
+    background-image: url(https://www.juksy.com/img/base.png);
+    background-repeat: no-repeat;
+    background-position: 0 -1427px;
+    line-height: 40px
+}
+
+form#subBar ul.member li:first-child {
+    background-image: none
+}
+
+form#subBar ul.member li:last-child {
+    padding-right: 0
+}
+
+form#subBar ul.member li a:hover {
+    opacity: .5
+}
+
+form#subBar ul.language {
+    font-size: 11px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    font-weight: 700;
+    margin: 10px 0 0 10px
+}
+
+form#subBar ul.language li {
+    padding: 1px 5px;
+    background-image: none;
+    float: left;
+    list-style: none
+}
+
+form#subBar ul.language li.selected {
+    background-color: #fff;
+    color: #0a58a6
+}
+
+form#subBar a.fb {
+    display: block;
+    margin-top: 4px
+}
+
+form#subBar .keywords {
+    position: fixed;
+    z-index: 1001;
+    top: 500px;
+    overflow: hidden;
+    color: #484848;
+    font-size: 14px;
+    letter-spacing: 0;
+    min-width: 260px;
+    display: none
+}
+
+form#subBar .keywords .keywordsBg {
+    position: relative;
+    padding-top: 10px;
+    overflow: hidden
+}
+
+#cboxLoadedContent,
+form#subBar .keywords .keywordsBg .keywordsWrap ul {
+    overflow: auto
+}
+
+form#subBar .keywords .keywordsBg:after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 6px;
+    background-image: url(https://www.juksy.com/img/base.png);
+    background-repeat: no-repeat;
+    background-position: 0 -1093px;
+    position: absolute;
+    top: 6px;
+    right: 130px
+}
+
+form#subBar .keywords .keywordsBg .keywordsWrap {
+    background-color: #fff;
+    float: right;
+    font-weight: 700;
+    border: 2px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 10px
+}
+
+form#subBar .keywords .keywordsBg .keywordsWrap .title {
+    display: block;
+    color: #0a58a6;
+    margin-bottom: 10px
+}
+
+form#subBar .keywords .keywordsBg .keywordsWrap ul li {
+    list-style: none;
+    display: block;
+    float: left;
+    margin: 0 5px 5px 0
+}
+
+#cboxContent,
+form#subBar .keywords .keywordsBg .keywordsWrap ul li:nth-child(3n) {
+    margin-right: 0
+}
+
+form#subBar .keywords .keywordsBg .keywordsWrap ul li a {
+    display: block;
+    padding: 3px 8px;
+    background-color: #e6e6e6;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3)
+}
+
+form#subBar .keywords .keywordsBg .keywordsWrap ul li a:hover {
+    background-color: #0a58a6;
+    color: #fff
+}
+
+#dfp_160_600_L,
+#dfp_160_600_R {
+    width: 160px;
+    position: absolute;
+    z-index: 1
+}
+
+#cboxClose,
+#cboxNext,
+#cboxPrevious,
+#cboxSlideshow {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    width: auto;
+    background: 0 0
+}
+
+#cboxOverlay,
+#cboxWrapper,
+#colorbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: hidden
+}
+
+#colorbox {
+    box-sizing: content-box;
+    outline: 0;
+    box-shadow: -5px 15px 12px -12px rgba(0, 0, 0, .75)
+}
+
+#colorbox.popupIdle,
+#colorbox.popupWin {
+    box-shadow: none
+}
+
+#colorbox.popupWin #cboxClose {
+    background-image: url(https://www.juksy.com/img/close_btn_dfp.png);
+    background-size: 35px 35px;
+    width: 35px;
+    height: 35px
+}
+
+#colorbox.popupIdle #cboxClose {
+    background-color: rgba(255, 255, 255, .7);
+    right: 0;
+    top: 0
+}
+
+#cboxContent,
+#cboxLoadedContent {
+    background-color: transparent;
+    box-sizing: content-box
+}
+
+#cboxNext,
+#cboxPrevious {
+    top: 50%;
+    margin-top: -32px;
+    width: 28px;
+    height: 65px;
+    text-indent: -9999px;
+    cursor: pointer
+}
+
+#cboxOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8)
+}
+
+#cboxWrapper {
+    max-width: none
+}
+
+#cboxContent {
+    position: relative;
+    margin-top: 0
+}
+
+#cboxTitle {
+    margin: 0;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #ccc
+}
+
+#cboxLoadingGraphic,
+#cboxLoadingOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+#cboxLoadingGraphic {
+    background: url(https://www.juksy.com/img/loading.svg) center center no-repeat
+}
+
+#cboxPrevious {
+    position: absolute;
+    left: 5px;
+    background: url(https://www.juksy.com/img/controls.png) top left no-repeat
+}
+
+#cboxClose:active,
+#cboxNext:active,
+#cboxPrevious:active,
+#cboxSlideshow:active {
+    outline: 0
+}
+
+#cboxPrevious:hover {
+    background-position: bottom left
+}
+
+#cboxNext {
+    position: absolute;
+    right: 5px;
+    background: url(https://www.juksy.com/img/controls.png) top right no-repeat
+}
+
+#cboxNext:hover {
+    background-position: bottom right
+}
+
+#cboxClose {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    background: url(https://www.juksy.com/img/close_btn.png) center center no-repeat;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-size: 60% auto;
+    transition-duration: .3s
+}
+
+#cboxClose:hover {
+    background-size: 80% auto
+}
+
+#cboxSlideshow {
+    cursor: pointer;
+    position: absolute;
+    top: -20px;
+    right: 90px;
+    color: #fff
+}
+
+.cboxPhoto {
+    float: left;
+    margin: auto;
+    border: 0;
+    display: block;
+    max-width: none
+}
+
+.cboxIframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent
+}
+
+#cboxError {
+    padding: 50px;
+    border: 1px solid #ccc
+}
+
+#cboxCurrent {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    color: #ccc
+}
+
+.jssorb05 .av,
+.jssorb05 div,
+.jssorb05 div:hover {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, .3)
+}
+
+#slider1_container {
+    margin: 0 auto 50px
+}
+
+.slider1_container {
+    position: relative;
+    width: 1050px;
+    height: 510px;
+    overflow: hidden
+}
+
+.slider1_container .loading .bg,
+.slider1_container .loading .filter {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.slider1_container .loading {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.slider1_container .loading .filter {
+    filter: alpha(opacity=10);
+    opacity: .1;
+    background-color: #000
+}
+
+.jssora13l:hover,
+.jssora13r:hover {
+    opacity: 1
+}
+
+.slider1_container .loading .bg {
+    background: url(https://www.juksy.com/img/loading.svg) center center no-repeat
+}
+
+.slider1_container .slides {
+    cursor: move;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1050px;
+    height: 480px;
+    overflow: hidden
+}
+
+.jssora13l,
+.jssora13r {
+    display: none;
+    position: absolute;
+    width: 82px;
+    height: 145px;
+    cursor: pointer;
+    background-image: url(https://www.juksy.com/img/base.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    top: 150px;
+    opacity: 1
+}
+
+.jssora13l {
+    background-position: 0 -534px;
+    left: 0
+}
+
+.jssora13r {
+    background-position: 0 -679px;
+    right: 0
+}
+
+.jssorb05 {
+    position: absolute;
+    bottom: 0
+}
+
+.jssorb05 div:hover {
+    background-color: rgba(10, 88, 166, .5)
+}
+
+.jssorb05 .av {
+    background-color: #0a58a6
+}
+
+.jssorb05 .av:hover {
+    background-color: rgba(10, 88, 166, .5)
+}
+
+@media screen and (min-width:1230px) {
+    .slider1_container {
+        width: 1230px
+    }
+    .slider1_container .slides {
+        left: 90px
+    }
+    .jssora13l,
+    .jssora13r {
+        display: block
+    }
+}
+
+.slider2_container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 920px;
+    height: 238px;
+    overflow: hidden
+}
+
+.slider2_container .loading .bg,
+.slider2_container .loading .filter {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.slider2_container .loading {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.slider2_container .loading .filter {
+    filter: alpha(opacity=10);
+    opacity: .1;
+    background-color: #000
+}
+
+.slider2_container .loading .bg {
+    background: url(https://www.juksy.com/img/loading.svg) center center no-repeat
+}
+
+.slider2_container .jssora03l.jssora03ldn,
+.slider2_container .jssora03l:hover,
+.slider2_container .jssora03r.jssora03rdn,
+.slider2_container .jssora03r:hover {
+    background-color: rgba(255, 255, 255, .5)
+}
+
+.slider2_container .slides {
+    cursor: move;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 920px;
+    height: 238px;
+    overflow: hidden
+}
+
+.slider2_container .jssora03l,
+.slider2_container .jssora03r {
+    display: block;
+    position: absolute;
+    width: 55px;
+    height: 238px;
+    cursor: pointer;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 20% auto
+}
+
+.slider2_container .jssora03l {
+    top: 0;
+    left: 0;
+    background-image: url(https://www.juksy.com/img/index/banner_btn_l.png)
+}
+
+.slider2_container .jssora03r {
+    top: 0;
+    right: 0;
+    background-image: url(https://www.juksy.com/img/index/banner_btn_r.png)
+}
+
+.slider5_container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1050px;
+    height: 399px;
+    overflow: hidden
+}
+
+.slider5_container .loading .bg,
+.slider5_container .loading .filter {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: block;
+    left: 0
+}
+
+.slider5_container .loading {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.slider5_container .loading .filter {
+    filter: alpha(opacity=10);
+    opacity: .1;
+    background-color: #000
+}
+
+.slider5_container .loading .bg {
+    background: url(https://www.juksy.com/img/loading.svg) center center no-repeat
+}
+
+.slider5_container .slides {
+    cursor: move;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1050px;
+    height: 399px;
+    overflow: hidden
+}
+
+.slider5_container .jssora03l,
+.slider5_container .jssora03r {
+    display: block;
+    position: absolute;
+    width: 55px;
+    height: 399px;
+    cursor: pointer;
+    overflow: hidden;
+    background: center center no-repeat rgba(72, 72, 72, .3);
+    background-size: 50% auto
+}
+
+.jssora03l .jssora03r.jssora03rdn,
+.jssora03l .jssora03r:hover,
+.jssora03l.jssora03ldn,
+.jssora03l:hover {
+    background-color: rgba(255, 255, 255, .5)
+}
+
+.jssora03l {
+    top: 0;
+    left: 0;
+    background-image: url(https://www.juksy.com/img/index/banner_btn_l.png)
+}
+
+.jssora03l .jssora03r {
+    top: 0;
+    right: 0;
+    background-image: url(https://www.juksy.com/img/index/banner_btn_r.png)
+}
+
+#movieMag {
+    overflow: hidden;
+    margin-bottom: 20px
+}
+
+#movieMag .movie {
+    float: left;
+    margin-right: 20px;
+    position: relative
+}
+
+#movieMag .movie .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, .5);
+    width: 620px
+}
+
+#movieMag .movie .youtube-container {
+    display: block;
+    width: 720px;
+    height: 405px
+}
+
+#movieMag .movie .youtube-player {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    cursor: pointer;
+    display: block
+}
+
+#movieMag .movie .play-button {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: url(https://www.juksy.com/img/video_play_btn.png) center center no-repeat;
+    background-size: 100px auto;
+    transition: .5s
+}
+
+#movieMag .movie .play-button:hover {
+    background-image: url(https://www.juksy.com/img/video_play_btn_hover.png)
+}
+
+#movieMag .movie #player {
+    width: 720px;
+    height: 405px
+}
+
+#movieMag .movie img.youtube-thumb {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -68px;
+    height: auto
+}
+
+#movieMag .mag {
+    float: left
+}
+
+#channel {
+    width: 300px
+}
+
+#channel .channelBar {
+    width: 1050px;
+    overflow: auto;
+    margin-bottom: 10px
+}
+
+#channel .channelBar .channelCat {
+    width: 130px;
+    height: 158px;
+    padding-top: 80px;
+    background-color: silver;
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 2em
+}
+
+#channel a.channelBox {
+    display: block
+}
+
+#channel a.channelBox .pic {
+    width: 300px;
+    height: 176px;
+    overflow: hidden;
+    position: relative
+}
+
+#channel a.channelBox .pic img {
+    width: 100%;
+    height: 100%;
+    transition: .5s
+}
+
+#channel a.channelBox .pic .tag {
+    width: 80px;
+    height: 60px;
+    background: url(https://www.juksy.com/img/index/channel_tag.png) right top no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    text-align: right;
+    padding: 10px 10px 0 0
+}
+
+#channel a.channelBox .pic span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#channel a.channelBox:hover .pic img {
+    transform: scale(1.2);
+    transform-origin: 50% 50%
+}
+
+#channel a.channelBox:hover .pic span {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+#channel a.channelBox:hover .title p {
+    color: #0a58a6
+}
+
+#channel a.channelBox .title {
+    padding: 10px 30px;
+    background-color: #e6e6e6
+}
+
+#channel a.channelBox .title p {
+    height: 3em;
+    line-height: 1.5em;
+    overflow: hidden
+}
+
+#dfp_1050_200_bottom,
+#dfp_1050_200_middle {
+    width: 1050px;
+    margin: 40px 0
+}
+
+#article {
+    overflow: auto;
+    margin-bottom: 20px
+}
+
+#article .indexTitle {
+    background-color: silver;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 0;
+    margin-bottom: 20px
+}
+
+#article .indexTitle .en {
+    font-size: 16px
+}
+
+#article ul.recBox {
+    overflow: auto;
+    margin-bottom: 15px
+}
+
+#article ul.recBox li {
+    list-style: none;
+    display: block;
+    float: left;
+    margin-right: 15px
+}
+
+#article ul.recBox li:last-child {
+    margin-right: 0
+}
+
+#article ul.recBox li a {
+    display: block;
+    width: 340px;
+    height: 200px;
+    overflow: hidden;
+    position: relative
+}
+
+#article ul.recBox li a .cover,
+#article ul.recBox li a img {
+    width: 100%;
+    height: 100%;
+    transition: .5s
+}
+
+#article ul.recBox li a .tag {
+    font-size: 18px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #0a58a6;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+#article ul.recBox li a:hover img {
+    transform: scale(1.2);
+    transform-origin: 50% 50%
+}
+
+#article ul.recBox li a:hover .cover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+#article ul.recBox li a .cover {
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+#article ul.recBox li a .title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px 50px;
+    width: 240px
+}
+
+#article ul.recBox li a .title span {
+    display: block;
+    color: #fff;
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden
+}
+
+#article ul.squareBox {
+    overflow: auto
+}
+
+#article ul.squareBox li {
+    list-style: none;
+    display: block;
+    float: left;
+    margin-right: 15px
+}
+
+#article ul.squareBox li:last-child {
+    margin-right: 0
+}
+
+#article ul.squareBox li a {
+    display: block;
+    width: 251.25px;
+    height: 251.25px;
+    overflow: hidden;
+    position: relative
+}
+
+#article ul.squareBox li a .cover,
+#article ul.squareBox li a img {
+    width: 100%;
+    height: 100%;
+    transition: .5s
+}
+
+#article ul.squareBox li a .tag {
+    font-size: 18px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #0a58a6;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+#article ul.squareBox li a:hover img {
+    transform: scale(1.2);
+    transform-origin: 50% 50%
+}
+
+#article ul.squareBox li a:hover .cover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+#article ul.squareBox li a .cover {
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+#article ul.squareBox li a .title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px 30px;
+    width: 191.25px
+}
+
+#article ul.squareBox li a .title span {
+    display: block;
+    color: #fff;
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden
+}
+
+#blog {
+    margin: 40px 0
+}
+
+#blog a.blogger {
+    display: block;
+    width: 210px;
+    height: 399px;
+    overflow: hidden;
+    position: relative
+}
+
+#blog a.blogger img {
+    width: 100%;
+    height: 100%;
+    transition: .5s
+}
+
+#blog a.blogger:hover img {
+    transform: scale(1.2);
+    transform-origin: 50% 0
+}
+
+#blog a.blogger:hover span {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+#blog a.blogger span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#blog a.blogger .detail {
+    width: 190px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    padding: 0 10px;
+    background-image: linear-gradient(180deg, rgba(72, 72, 72, 0) 0, #484848 100%)
+}
+
+#blog a.blogger .detail .title {
+    padding: 20px 0 5px
+}
+
+#blog a.blogger .detail .name {
+    font-size: 45px;
+    height: 1.5em
+}
+
+#blogSlogan,
+#movieSlogan {
+    color: #0a58a6;
+    font-style: italic;
+    font-size: 55px;
+    position: absolute;
+    margin-left: -20px
+}
